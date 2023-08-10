@@ -1,56 +1,56 @@
-*{
-    margin: 0;
-    padding: 0;
-    display: block;
+* {
+  margin: 0;
+  padding: 0;
+  display: block;
 }
-body{
-    background-color: aqua;
+body {
+  background-color: aqua;
 }
-#div1{
-   padding: 30px;
-   width: 50%;
-   position: absolute;
-   margin: 20%;
-   background-color: white;
-   text-align: center;
+#div1 {
+  padding: 30px;
+  width: 50%;
+  position: absolute;
+  margin: 20%;
+  background-color: white;
+  text-align: center;
 }
-#div2{
-    
-   align-items: center;
-   justify-content: center;
+#div2 {
+  align-items: center;
+  justify-content: center;
 }
-#addB{
-    padding: 10px;
-    text-decoration: none;
-    background-color: black;
-    color: white;
-    border-radius: 50px;
-    position: relative;
-    left: 20px;
+#addB {
+  padding: 10px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  position: relative;
+  left: 20px;
 }
-#addB:hover{
-    background-color: white;
-    color: black
+
+#addB:hover {
+  background-color: white;
+  color: black;
 }
-#input{
-margin: 20px;
-width: 400px;
-height: 40px;
-font-size: 18px;
+#input {
+  margin: 20px;
+  width: 400px;
+  height: 40px;
+  font-size: 18px;
 }
-#ul{
-    font-size:30px;
+#ul {
+  font-size: 30px;
 }
-li{
-    background-color: aqua;
-    margin: 4px;
-    padding: 5px;
+li {
+  background-color: aqua;
+  margin: 4px;
+  padding: 5px;
 }
-#deleteB{
-    padding: 5px;
-    float: right;
-    color: white;
-    background-color: black;
-    display: inline;
-    border-radius: 50px;
+#deleteB {
+  padding: 5px;
+  float: right;
+  color: white;
+  background-color: black;
+  display: inline;
+  border-radius: 50px;
 }
