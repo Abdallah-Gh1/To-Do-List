@@ -54,3 +54,8 @@ li {
   display: inline;
   border-radius: 50px;
 }
+
+#deleteB:hover {
+    background-color: white;
+    color: black;
+  }
