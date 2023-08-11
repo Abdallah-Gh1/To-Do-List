@@ -3,27 +3,21 @@
   padding: 0;
   display: block;
 }
-
 body {
   background-color: aqua;
 }
-
 #div1 {
   padding: 30px;
   width: 50%;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  margin: 20%;
   background-color: white;
   text-align: center;
 }
-
 #div2 {
-  display: flex;
   align-items: center;
   justify-content: center;
 }
-
 #addB {
   padding: 10px;
   text-decoration: none;
@@ -38,25 +32,20 @@ body {
   background-color: white;
   color: black;
 }
-
 #input {
   margin: 20px;
-  width: 100%;
-  max-width: 500px;
+  width: 75%;
   height: 40px;
   font-size: 18px;
 }
-
 #ul {
   font-size: 30px;
 }
-
 li {
   background-color: aqua;
   margin: 4px;
   padding: 5px;
 }
-
 #deleteB {
   padding: 5px;
   float: right;
@@ -67,22 +56,6 @@ li {
 }
 
 #deleteB:hover {
-  background-color: white;
-  color: black;
-}
-
-/* Responsive Styles */
-@media screen and (max-width: 768px) {
-  #div1 {
-    width: 90%;
-    margin: 5%;
+    background-color: white;
+    color: black;
   }
-  
-  #input {
-    width: 90%;
-  }
-  
-  #ul {
-    font-size: 24px;
-  }
-}
